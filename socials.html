@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Επικοινωνία</title>
+    <link rel="stylesheet" href="socials.css">
+    <script>
+        function openTab(tabName) {
+            console.log("Switching to tab:", tabName);
+
+            var tabs = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = "none";
+            }
+
+            var selectedTab = document.getElementById(tabName);
+            selectedTab.style.display = "block";
+
+            console.log("Tab content:", selectedTab.innerHTML);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>p_d_stockk</h1>
+
+        <div class="w3-bar">
+            <a href="index.html">
+                <button class="w3-bar-item">Αρχική</button>
+            </a>
+    
+            <a href="proionta.html">
+                <button class="w3-bar-item">Προιόντα</button>
+            
+            </a>
+            <a href="socials.html">
+            <button class="w3-bar-item">Επικοινωνία</button>
+        </a>
+          </div>
+
+          <h2>Επικοινωνία:</h2>
+
+<div class="centered-container">
+    <a href="https://www.instagram.com/p_d_stockk/" target="_blank" rel="noopener noreferrer">
+        <button class="instagram-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="insta profile" height="30" width="40" />
+            <span>Προφίλ Instagram</span>
+        </button>
+    </a>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="VPVasP">
+    <title>Αρχική</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mouse_over.js"></script>
+    <script>
+        function openTab(tabName) {
+            console.log("Switching to tab:", tabName);
+            
+            var tabs = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = "none";
+            }
+            
+            var selectedTab = document.getElementById(tabName);
+            selectedTab.style.display = "block";
+            
+            console.log("Tab content:", selectedTab.innerHTML);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>p_d_stockk</h1>
+    <div class="w3-bar">
+        <a href="index.html">
+            <button class="w3-bar-item">Αρχική</button>
+        </a>
+
+        <a href="proionta.html">
+            <button class="w3-bar-item">Προιόντα</button>
+        
+        </a>
+        <a href="socials.html">
+        <button class="w3-bar-item">Επικοινωνία</button>
+    </a>
+        </div>
+    </div>
+
+    <div id="About" class="tab-content active">
+        <img src="Images/p_d logo.jpg" alt="Description of the site" class="profile-image">
+        <p>
+            ᴍᴀʀᴋᴏᴘᴏᴜʟᴏ-ᴘᴏʀᴛᴏ ʀᴀғᴛɪ📍
+        </p>
+        <p>
+            𝐇𝐚𝐧𝐝 𝐢𝐧 𝐡𝐚𝐧𝐝 𝐬𝐡𝐢𝐩𝐩𝐢𝐧𝐠
+        </p>
+      
+    </div>
+</body>
+  
+
+ 
+    
+</html>
+
