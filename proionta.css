@@ -173,12 +173,4 @@ body {
   .instagram-button:hover::before {
     box-shadow: inset 0 0 0 10em #E4405F; 
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px; 
-      max-width:50px;
-    }
-    .project-item {
-      max-width: 380%; 
-  }
-}
+  
