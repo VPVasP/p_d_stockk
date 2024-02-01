@@ -155,12 +155,10 @@ h1 {
   }
 
   .profile-image {
-      width: auto; 
-      height: auto;
+      width: 300; 
+      height: 300;
       max-width: none; 
   }
 
-  .instagram-button {
-      font-size: 12px; 
-  }
+
 }
